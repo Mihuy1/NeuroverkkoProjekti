@@ -2,7 +2,7 @@ from PIL import Image
 import os
 
 TARGET_SIZE = (180, 180)
-BASE_DIR = '../Photos-CNN/Photos'
+BASE_DIR = './Photos-CNN/Photos'
 folders = ['Train', 'Test', 'Validation']
 
 def resize_images_in_folder(folder_path):
