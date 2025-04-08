@@ -24,6 +24,6 @@ def heic_to_jpg(input_folder, output_folder):
                 print(f"An unexpected error occurred with {filename}: {e}")
 
 if __name__ == "__main__":
-    input_folder = "../NeuroverkkoProjekti/Photos-CNN/PhotosCutlery/Validation/Spoon"
-    output_folder = "../NeuroverkkoProjekti/Photos-CNN/PhotosCutlery/Validation/Spoon"
+    input_folder = "../NeuroverkkoProjekti/Photos-CNN/PhotosCutlery/"
+    output_folder = "../NeuroverkkoProjekti/Photos-CNN/PhotosCutlery/"
     heic_to_jpg(input_folder, output_folder)
